@@ -234,9 +234,9 @@ bandit20-do
 - bandit19@bandit:~$ ./bandit20-do
 > Run a command as another user.
   Example: ./bandit20-do id
-bandit19@bandit:~$ id
+- bandit19@bandit:~$ id
 uid=11019(bandit19) gid=11019(bandit19) groups=11019(bandit19)
-bandit19@bandit:~$ ./bandit20-do id
+- bandit19@bandit:~$ ./bandit20-do id
 uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
 - bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
 - mot de passe :VxCazJaVykI6W36BkBU0mJTCM8rR95XT
@@ -250,8 +250,10 @@ PC1
 - bandit20@bandit:~$ ./suconnect
 > Usage: ./suconnect <portnumber>
 > This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
-bandit20@bandit:~$ ./suconnect 9999
-Read: 46bCDdFhklNnrStUuvZz
+ 
+- bandit20@bandit:~$ ./suconnect 9999
+ 
+> Read: 46bCDdFhklNnrStUuvZz
 ERROR: This doesn't match the current password!
 bandit20@bandit:~$ ./suconnect 8080
 Read: VxCazJaVykI6W36BkBU0mJTCM8rR95XT
@@ -264,8 +266,7 @@ Password matches, sending next password
 Connection received on localhost 36056
 46bCDdFhklNnrStUuvZz
 FAIL!
-- bandit20@bandit:~$ nc -lvp 8000
->nc: Address already in use
+
 bandit20@bandit:~$ nc -lvp 8080
 Listening on 0.0.0.0 8080
 Connection received on localhost 37696
