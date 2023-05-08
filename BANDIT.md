@@ -5,14 +5,14 @@
 
 # Niveau 0 → Niveau 1
 - bandit0@bandit:~$ cat ~/readme
-mot de passe : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+- mot de passe : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 - bandit0@bandit:~$ exit
 
 # Niveau 1 → Niveau  2
 - bandit1@bandit:~$ ls
 >  '-'
 - bandit1@bandit:~$ cat ./-
-mot de passe : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+- mot de passe : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 
 # Niveau 2 → Niveau  3
 - bandit2@bandit:~$ ls
