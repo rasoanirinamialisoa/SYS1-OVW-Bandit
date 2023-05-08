@@ -580,24 +580,25 @@ To ssh://localhost:2220/home/bandit31-git/repo
  ! [remote rejected] master -> master (pre-receive hook declined)
 error: failed to push some refs to 'ssh://localhost:2220/home/bandit31                                                                                                                       -git/repo'
 
-# Niveau 31 → Niveau  33
+# Niveau 32 → Niveau  33
    
-  Enjoy your stay!
+> Enjoy your stay!
 > WELCOME TO THE UPPERCASE SHELL
 > '>> ls -la'
-sh: 1: LS: not found
-'>> $0'
->$ ls -la
-total 36
+- sh: 1: LS: not found
+> '>> $0'
+- $ ls -la
+ 
+> total 36
 drwxr-xr-x  2 root     root      4096 Apr 23 18:04 .
 drwxr-xr-x 70 root     root      4096 Apr 23 18:05 ..
 -rw-r--r--  1 root     root       220 Jan  6  2022 .bash_logout
 -rw-r--r--  1 root     root      3771 Jan  6  2022 .bashrc
 -rw-r--r--  1 root     root       807 Jan  6  2022 .profile
 -rwsr-x---  1 bandit33 bandit32 15128 Apr 23 18:04 uppershell
-$ whoami
-bandit33
-$ cat /etc/bandit\_pass/bandit33
+- $ whoami
+> bandit33
+- $ cat /etc/bandit\_pass/bandit33
 
 - mot de passe :  odHo63fHiFqcWWJG9rLiLDtPm45KzUKy
 
